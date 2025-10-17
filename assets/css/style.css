@@ -6,7 +6,7 @@
     --text-color: #333;
     --light-gray: #f4f4f4;
     --white: #fff;
-    --font-family: sans-serif';
+    --font-family: 'Poppins', sans-serif; /* CORRECT: Fallback font is here */
 }
 
 /* Basic Reset */
@@ -17,7 +17,7 @@
 }
 
 body {
-    font-family: var(--font-family);
+    font-family: var(--font-family); /* CORRECT: Only one set of parentheses */
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--white);
